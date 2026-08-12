@@ -2,7 +2,7 @@
    App-shell caching only. Firestore and Auth traffic is deliberately left alone:
    the Firestore SDK has its own offline cache and intercepting it breaks sync. */
 
-const CACHE = 'fullbody-v2';
+const CACHE = 'fullbody-v3';
 const SHELL = ['./', './index.html', './manifest.json'];
 
 // Hosts that must always go straight to the network
